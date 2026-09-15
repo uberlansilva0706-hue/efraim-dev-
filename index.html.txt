@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Efraim Dev | Soluções inteligentes, resultados reais.</title>
+  <meta name="description" content="Desenvolvimento web de alta performance, WordPress, WooCommerce e automações de atendimento com agentes de IA.">
+  
+  <!-- Open Graph / SEO -->
+  <meta property="og:title" content="Efraim Dev | Soluções inteligentes, resultados reais.">
+  <meta property="og:description" content="Tecnologia ágil para acelerar sua operação e maximizar seu lucro com sites rápidos e automações.">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">EFRAIM<span>DEV</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#web">Desenvolvimento Web</a></li>
+          <li><a href="#automacao">Automações & IA</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato" class="btn-primary-sm">Falar no WhatsApp</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 01 — HOME / HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <span class="badge">Engenharia de Software & Performance</span>
+      <h1>Tecnologia ágil para <span class="highlight-blue">acelerar sua operação</span> e <span class="highlight-orange">maximizar seu lucro</span>.</h1>
+      <p class="tagline">Soluções inteligentes, resultados reais.</p>
+      <p class="hero-description">Desenvolvimento focado em conversão, arquitetura limpa em WordPress/WooCommerce e agentes inteligentes de atendimento para escalar seus negócios.</p>
+      <div class="hero-actions">
+        <a href="#servicos" class="btn-primary">Ver Soluções & Valores</a>
+        <a href="#portfolio" class="btn-secondary">Testar Provas Conceituais</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 — DESENVOLVIMENTO WEB -->
+  <section id="web" class="section">
+    <div class="container">
+      <h2 class="section-title">Desenvolvimento Web de Alto Desempenho</h2>
+      <p class="section-subtitle">Soluções estruturadas para alta autonomia, velocidade de carregamento e otimização para motores de busca.</p>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Sites Institucionais & WordPress</h3>
+          <p>Páginas leves, seguras, totalmente responsivas e preparadas para você gerenciar seu próprio conteúdo sem dependência técnica.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🛒</div>
+          <h3>Lojas Virtuais WooCommerce</h3>
+          <p>Plataformas de vendas robustas, integradas com meios de pagamento modernos, cálculo de frete e gestão de estoque simplificada.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔧</div>
+          <h3>Manutenção & Otimização</h3>
+          <p>Ajustes de performance (Core Web Vitals), remoção de gargalos, correção de erros e blindagem de segurança para sites ativos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 — AUTOMAÇÕES & AGENTES DE IA -->
+  <section id="automacao" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">Automações & Agentes de Atendimento</h2>
+      <p class="section-subtitle">Reduza trabalho manual repetitivo e transforme interações em oportunidades de vendas 24 horas por dia.</p>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">🤖</div>
+          <h3>Agentes Inteligentes (WhatsApp & Web)</h3>
+          <p>Atendimento automatizado com roteamento de dúvidas, qualificação de leads e agendamentos diretos sem fila de espera.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">⚙️</div>
+          <h3>Integração de Processos & CRM</h3>
+          <p>Conexão automática entre formulários web, planilhas de controle, CRMs e sistemas internos para eliminar erros de digitação.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 — SERVIÇOS & PACOTES -->
+  <section id="servicos" class="section">
+    <div class="container">
+      <h2 class="section-title">Soluções Comerciais</h2>
+      <p class="section-subtitle">Escolha o pacote ideal para a fase atual da sua empresa e inicie a implementação.</p>
+      <div class="pricing-grid">
+        
+        <div class="price-card">
+          <h3>Pacote Web Essencial</h3>
+          <p class="price-desc">Ideal para validação e presença profissional</p>
+          <ul class="features">
+            <li>✓ Site Institucional em WordPress</li>
+            <li>✓ Otimização mobile e velocidade</li>
+            <li>✓ Botão de WhatsApp e formulário SEO-ready</li>
+            <li>✓ Estrutura de fácil edição pelo cliente</li>
+          </ul>
+          <button class="btn-primary-full" onclick="abrirModal('Pacote Web Essencial')">Solicitar Proposta</button>
+        </div>
+
+        <div class="price-card featured">
+          <span class="card-badge">Mais Recomendado</span>
+          <h3>E-commerce & Automação</h3>
+          <p class="price-desc">Para empresas que buscam escala e vendas online</p>
+          <ul class="features">
+            <li>✓ Loja Virtual WooCommerce Completa</li>
+            <li>✓ Meios de Pagamento (Mercado Pago / Stripe)</li>
+            <li>✓ Integração com agente de qualificação</li>
+            <li>✓ Treinamento e autonomia operacional</li>
+          </ul>
+          <button class="btn-primary-full" onclick="abrirModal('E-commerce e Automação')">Solicitar Proposta</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 — PORTFÓLIO / PROVAS CONCEITUAIS -->
+  <section id="portfolio" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">Provas Conceituais Funcionando</h2>
+      <p class="section-subtitle">Acesse ambientes demonstrativos ativos que comprovam a qualidade e a lógica dos sistemas.</p>
+      <div class="cards-grid">
+        <div class="card">
+          <h3>Loja WooCommerce Demonstrativa</h3>
+          <p>Catálogo ativo com simulação de carrinho de compras e checkout de teste funcional.</p>
+          <a href="#" class="card-link" onclick="alertaDemonstracao(event, 'WooCommerce')">Acessar Demonstração →</a>
+        </div>
+        <div class="card">
+          <h3>Simulador de Agente de IA</h3>
+          <p>Fluxo de atendimento automático simulando qualificação de clientes em tempo real.</p>
+          <a href="#" class="card-link" onclick="alertaDemonstracao(event, 'Agente de IA')">Testar Fluxo →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 — SOBRE / METODOLOGIA -->
+  <section id="sobre" class="section">
+    <div class="container text-center">
+      <h2 class="section-title">Engenharia, Transparência & Segurança</h2>
+      <p class="max-w-prose">Na Efraim Dev, a tecnologia é aplicada com foco exclusivo em resolver gargalos operacionais e gerar retorno financeiro claro. Não vendemos complexidade técnica desnecessária: entregamos estruturas estáveis, código limpo, documentação transparente e autonomia completa para o proprietário da aplicação.</p>
+    </div>
+  </section>
+
+  <!-- 07 — CONTATO -->
+  <section id="contato" class="section bg-alt text-center">
+    <div class="container">
+      <h2 class="section-title">Pronto para acelerar seus resultados?</h2>
+      <p class="section-subtitle">Entre em contato para alinhar o escopo e prazos do seu projeto.</p>
+      <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Efraim%20Dev%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="btn-primary btn-lg">Falar Direto no WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- MODAL DE CHECKOUT SIMULADO / SOLICITAÇÃO -->
+  <div id="modal-checkout" class="modal" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <span class="close-modal" onclick="fecharModal()">&times;</span>
+      <h3 id="modal-titulo">Iniciar Solicitação</h3>
+      <p>Preencha os dados abaixo para direcionar sua mensagem pré-formatada diretamente ao atendimento técnico:</p>
+      <form id="checkout-form" onsubmit="enviarSolicitacao(event)">
+        <input type="text" id="nome" placeholder="Seu Nome" required>
+        <input type="email" id="email" placeholder="Seu E-mail" required>
+        <input type="tel" id="whatsapp" placeholder="Seu WhatsApp / Telefone" required>
+        <button type="submit" class="btn-primary-full">Enviar Solicitação via WhatsApp</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
