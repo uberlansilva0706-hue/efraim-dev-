@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | EFRAIM DEV</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: url('https://images.unsplash.com/photo-1508974239320-0a029497e820?q=80&w=1920');">
+
+  <header class="navbar">
+    <a href="index.html" class="logo">EFRAIM<span>DEV</span></a>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="desenvolvimento.html">Desenvolvimento Web</a>
+      <a href="automacoes.html">IA & Automações</a>
+      <a href="portfolio.html">Provas Conceituais</a>
+      <a href="contato.html" class="active btn-nav">Falar no WhatsApp</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="page-title">
+      <h1>Iniciar <span>Solicitação</span></h1>
+      <p>Preencha os dados abaixo para direcionar sua mensagem pré-formatada diretamente ao atendimento técnico:</p>
+    </div>
+
+    <div class="form-container">
+      <form id="whatsappForm">
+        <div class="form-group">
+          <label for="nome">SEU NOME / EMPRESA</label>
+          <input type="text" id="nome" required placeholder="Ex: Roberto Silva">
+        </div>
+
+        <div class="form-group">
+          <label for="servico">SERVIÇO DE INTERESSE</label>
+          <select id="servico" required>
+            <option value="Site Institucional em WordPress">Pacote Web Essencial (WordPress)</option>
+            <option value="Loja Virtual WooCommerce">E-commerce / WooCommerce Completo</option>
+            <option value="Agente Inteligente / IA">Agente Inteligente de Atendimento</option>
+            <option value="Manutenção e Otimização">Manutenção & Otimização de Performance</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="mensagem">DETALHES DO PROJETO</label>
+          <textarea id="mensagem" rows="4" placeholder="Descreva os objetivos do seu projeto..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary" style="width: 100%;">Enviar Solicitação via WhatsApp 🚀</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 EFRAIM DEV. High-Performance Software Engineering.</p>
+  </footer>
+
+  <script class="code-script">
+    document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const nome = document.getElementById('nome').value;
+      const servico = document.getElementById('servico').value;
+      const mensagem = document.getElementById('mensagem').value;
+      
+      // Digite o seu número com DDD (apenas números)
+      const numeroWhats = '5511999999999'; 
+      
+      const texto = `Olá! Meu nome é *${nome}*.\nTenho interesse em: *${servico}*.\n\n*Detalhes:* ${mensagem}`;
+      const url = `https://wa.me/${numeroWhats}?text=${encodeURIComponent(texto)}`;
+      
+      window.open(url, '_blank');
+    });
+  </script>
+
+</body>
+</html>
